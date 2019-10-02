@@ -1,0 +1,113 @@
+
+body {font-family: Arial;}
+
+.keseluruhan{
+    width: 1200px;
+    min-height: 1000px;
+    background-color: white;
+    margin:auto;
+}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #c46a6a;
+  border-radius: 60px;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#Home h1{
+    text-align: center;
+}
+
+.jimbutron{
+    background-image:linear-gradient(rgba(82, 80, 80, 0.9),rgba(85, 79, 79, 0.5)), url(IMG_20190708_075712.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 700px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.jimbutron .con1{
+    padding: 100px 200px ;
+    margin : 0px 80px;
+    color : aliceblue;
+    
+    
+}
+
+#Profil h1{
+    background-color: beige;
+    border-radius: 10px;
+    font-size: 30px;
+}
+#Profil{
+    background-color: azure;
+    padding-bottom: 30px;
+}
+.con1{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.con1 img{
+    width: 300px;
+    height: auto;
+    float: right;
+    margin: 30px;
+    margin-top: 60px;
+    border-radius: 30px;
+}
+
+ #Riwayat_Pendidikan table tr td {
+    
+    margin: 30px;
+    padding: 10px;
+    
+    font-size: 25px;
+ }
+ #Riwayat_Pendidikan table tr td a{
+    text-decoration: none;
+    color: black;
+ }
+
+.listgambar a img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.gambar{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
